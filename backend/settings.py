@@ -25,7 +25,12 @@ SECRET_KEY = "django-insecure-0w6fekwtj9d%35kbr_-5g!)c9ll7r9ja&%)hhm###@u9%%)f#j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'trendpredictionbackend-uu26.onrender.com',
+    "*",
+]
 
 
 CORS_ALLOWED_ORIGINS = [
